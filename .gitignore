@@ -1,0 +1,31 @@
+# Sensitive data
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+passwords.txt
+credentials.txt
+*.db
+*.sqlite
+
+# Scan outputs (may contain sensitive info)
+# Uncomment if you don't want to track scan results
+# outputs/*.txt
+# outputs/*.xml
+# outputs/*.json
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
