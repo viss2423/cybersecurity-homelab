@@ -1,14 +1,18 @@
-# Reconnaissance and Enumeration Notes
+# Recon Notes (Ubuntu)
 
-## Overview
-Documentation of reconnaissance and enumeration activities performed during the homelab exercises.
+## Target
+- IP: 192.168.56.102
 
-## Tools Used
-- Nmap
-- [Add other tools]
+## Commands Used
+```bash
+nmap -sC -sV 192.168.56.102 -oN ubuntu_quickscan.txt
+nmap -p- 192.168.56.102 -oN ubuntu_allports.txt
+```
 
 ## Findings
-[Document your findings here]
+- Summarize open ports and services here (from your output files).
 
-## Outputs
-Scan results and other outputs are stored in the `outputs/` directory.
+## Next Steps
+- Validate SSH access (legit creds)
+- Add a web target for OWASP testing (Juice Shop)
+- Start collecting defender-side evidence from logs

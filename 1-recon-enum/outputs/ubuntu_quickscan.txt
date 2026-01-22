@@ -1,0 +1,8 @@
+# Nmap 7.94SVN scan initiated Thu Jan 22 22:22:32 2026 as: nmap -sC -sV -oN 1-recon-enum/outputs/ubuntu_quickscan.txt 192.168.56.102
+Nmap scan report for 192.168.56.102
+Host is up (0.0048s latency).
+All 1000 scanned ports on 192.168.56.102 are in ignored states.
+Not shown: 1000 closed tcp ports (conn-refused)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Jan 22 22:22:33 2026 -- 1 IP address (1 host up) scanned in 0.95 seconds
