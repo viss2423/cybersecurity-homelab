@@ -1,13 +1,16 @@
-# SSH Access Documentation
+# Initial Access (SSH)
 
-## Overview
-Documentation of SSH access techniques and findings.
+## Goal
+Validate SSH access to the Ubuntu victim VM from Kali.
 
-## Methods Attempted
-[Document SSH access methods here]
+## Command
+```bash
+ssh labuser@192.168.56.102
+```
 
-## Credentials
-[Document any credentials found (store securely)]
+## Evidence Collected
+- `authlog_tail_200.txt` (from Ubuntu `/var/log/auth.log`)
 
-## Notes
-[Add any additional notes or observations]
+## Defender View
+- SSH authentication events are recorded in:
+  - `/var/log/auth.log`

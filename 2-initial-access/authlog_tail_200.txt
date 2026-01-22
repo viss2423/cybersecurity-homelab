@@ -1,0 +1,200 @@
+2026-01-22T19:39:17.474639+00:00 Ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2026-01-22T19:39:56.504708+00:00 Ubuntu pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by labuser(uid=1000)
+2026-01-22T19:39:56.509264+00:00 Ubuntu pkexec[5265]: labuser: Executing command [USER=root] [TTY=unknown] [CWD=/home/labuser] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-01-22T19:40:53.632937+00:00 Ubuntu sudo:  labuser : TTY=pts/0 ; PWD=/home/labuser ; USER=root ; COMMAND=/usr/bin/mkdir -p /mnt/cdrom
+2026-01-22T19:40:53.634408+00:00 Ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by labuser(uid=1000)
+2026-01-22T19:40:53.649545+00:00 Ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2026-01-22T19:41:05.138848+00:00 Ubuntu sudo:  labuser : TTY=pts/0 ; PWD=/home/labuser ; USER=root ; COMMAND=/usr/bin/mount /dev/cdrom /mnt/cdrom
+2026-01-22T19:41:05.144570+00:00 Ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by labuser(uid=1000)
+2026-01-22T19:41:05.744282+00:00 Ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2026-01-22T19:42:55.856840+00:00 Ubuntu sudo:  labuser : TTY=pts/0 ; PWD=/home/labuser ; USER=root ; COMMAND=/usr/bin/mount /dev/sr0 /mnt/cdrom
+2026-01-22T19:42:55.858669+00:00 Ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by labuser(uid=1000)
+2026-01-22T19:42:55.892074+00:00 Ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2026-01-22T19:43:33.333380+00:00 Ubuntu sudo:  labuser : TTY=pts/0 ; PWD=/mnt/cdrom ; USER=root ; COMMAND=./VBoxLinuxAdditions.run
+2026-01-22T19:43:33.352314+00:00 Ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by labuser(uid=1000)
+2026-01-22T19:44:40.187414+00:00 Ubuntu useradd[11375]: new user: name=vboxadd, UID=997, GID=1, home=/var/run/vboxadd, shell=/bin/false, from=/dev/pts/1
+2026-01-22T19:44:40.220831+00:00 Ubuntu useradd[11382]: failed adding user 'vboxadd', exit code: 9
+2026-01-22T19:44:40.306471+00:00 Ubuntu groupadd[11391]: group added to /etc/group: name=vboxsf, GID=984
+2026-01-22T19:44:40.317401+00:00 Ubuntu groupadd[11391]: group added to /etc/gshadow: name=vboxsf
+2026-01-22T19:44:40.320288+00:00 Ubuntu groupadd[11391]: new group: name=vboxsf, GID=984
+2026-01-22T19:44:40.357074+00:00 Ubuntu groupadd[11398]: group added to /etc/group: name=vboxdrmipc, GID=983
+2026-01-22T19:44:40.366699+00:00 Ubuntu groupadd[11398]: group added to /etc/gshadow: name=vboxdrmipc
+2026-01-22T19:44:40.370263+00:00 Ubuntu groupadd[11398]: new group: name=vboxdrmipc, GID=983
+2026-01-22T19:44:42.658364+00:00 Ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2026-01-22T19:44:56.622349+00:00 Ubuntu sudo:  labuser : TTY=pts/0 ; PWD=/mnt/cdrom ; USER=root ; COMMAND=/usr/sbin/reboot
+2026-01-22T19:44:56.623170+00:00 Ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by labuser(uid=1000)
+2026-01-22T19:44:56.638944+00:00 Ubuntu systemd-logind[938]: The system will reboot now!
+2026-01-22T19:44:56.664248+00:00 Ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2026-01-22T19:44:56.683795+00:00 Ubuntu systemd-logind[938]: System is rebooting.
+2026-01-22T19:44:56.733614+00:00 Ubuntu gdm-password]: pam_unix(gdm-password:session): session closed for user labuser
+2026-01-22T19:39:42.014513+00:00 Ubuntu dbus-daemon[645]: [system] Failed to activate service 'org.freedesktop.PolicyKit1': timed out (service_start_timeout=25000ms)
+2026-01-22T19:39:44.562742+00:00 Ubuntu dbus-daemon[645]: [system] Failed to activate service 'org.freedesktop.login1': timed out (service_start_timeout=25000ms)
+2026-01-22T19:40:14.570948+00:00 Ubuntu dbus-daemon[645]: [system] Failed to activate service 'org.freedesktop.login1': timed out (service_start_timeout=25000ms)
+2026-01-22T19:40:44.587701+00:00 Ubuntu dbus-daemon[645]: [system] Failed to activate service 'org.freedesktop.login1': timed out (service_start_timeout=25000ms)
+2026-01-22T19:41:14.618535+00:00 Ubuntu dbus-daemon[645]: [system] Failed to activate service 'org.freedesktop.login1': timed out (service_start_timeout=25000ms)
+2026-01-22T19:41:44.635315+00:00 Ubuntu dbus-daemon[645]: [system] Failed to activate service 'org.freedesktop.login1': timed out (service_start_timeout=25000ms)
+2026-01-22T19:42:14.657555+00:00 Ubuntu dbus-daemon[645]: [system] Failed to activate service 'org.freedesktop.login1': timed out (service_start_timeout=25000ms)
+2026-01-22T19:42:44.676424+00:00 Ubuntu dbus-daemon[645]: [system] Failed to activate service 'org.freedesktop.login1': timed out (service_start_timeout=25000ms)
+2026-01-22T19:43:14.719510+00:00 Ubuntu dbus-daemon[645]: [system] Failed to activate service 'org.freedesktop.login1': timed out (service_start_timeout=25000ms)
+2026-01-22T19:43:44.747527+00:00 Ubuntu dbus-daemon[645]: [system] Failed to activate service 'org.freedesktop.login1': timed out (service_start_timeout=25000ms)
+2026-01-22T19:44:14.778604+00:00 Ubuntu dbus-daemon[645]: [system] Failed to activate service 'org.freedesktop.login1': timed out (service_start_timeout=25000ms)
+2026-01-22T19:44:44.805495+00:00 Ubuntu dbus-daemon[645]: [system] Failed to activate service 'org.freedesktop.login1': timed out (service_start_timeout=25000ms)
+2026-01-22T19:45:01.982000+00:00 Ubuntu CRON[1249]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-22T19:45:02.007738+00:00 Ubuntu CRON[1249]: pam_unix(cron:session): session closed for user root
+2026-01-22T19:45:14.841487+00:00 Ubuntu dbus-daemon[645]: [system] Failed to activate service 'org.freedesktop.login1': timed out (service_start_timeout=25000ms)
+2026-01-22T19:45:44.902021+00:00 Ubuntu dbus-daemon[645]: [system] Failed to activate service 'org.freedesktop.login1': timed out (service_start_timeout=25000ms)
+2026-01-22T19:46:14.925528+00:00 Ubuntu dbus-daemon[645]: [system] Failed to activate service 'org.freedesktop.login1': timed out (service_start_timeout=25000ms)
+2026-01-22T19:46:44.974734+00:00 Ubuntu dbus-daemon[645]: [system] Failed to activate service 'org.freedesktop.login1': timed out (service_start_timeout=25000ms)
+2026-01-22T19:47:14.988343+00:00 Ubuntu dbus-daemon[645]: [system] Failed to activate service 'org.freedesktop.login1': timed out (service_start_timeout=25000ms)
+2026-01-22T19:47:45.017279+00:00 Ubuntu dbus-daemon[645]: [system] Failed to activate service 'org.freedesktop.login1': timed out (service_start_timeout=25000ms)
+2026-01-22T19:48:15.044696+00:00 Ubuntu dbus-daemon[645]: [system] Failed to activate service 'org.freedesktop.login1': timed out (service_start_timeout=25000ms)
+2026-01-22T19:48:45.074542+00:00 Ubuntu dbus-daemon[645]: [system] Failed to activate service 'org.freedesktop.login1': timed out (service_start_timeout=25000ms)
+2026-01-22T19:49:15.101859+00:00 Ubuntu dbus-daemon[645]: [system] Failed to activate service 'org.freedesktop.login1': timed out (service_start_timeout=25000ms)
+2026-01-22T19:49:45.125699+00:00 Ubuntu dbus-daemon[645]: [system] Failed to activate service 'org.freedesktop.login1': timed out (service_start_timeout=25000ms)
+2026-01-22T19:50:15.157249+00:00 Ubuntu dbus-daemon[645]: [system] Failed to activate service 'org.freedesktop.login1': timed out (service_start_timeout=25000ms)
+2026-01-22T19:50:45.181781+00:00 Ubuntu dbus-daemon[645]: [system] Failed to activate service 'org.freedesktop.login1': timed out (service_start_timeout=25000ms)
+2026-01-22T19:51:15.201307+00:00 Ubuntu dbus-daemon[645]: [system] Failed to activate service 'org.freedesktop.login1': timed out (service_start_timeout=25000ms)
+2026-01-22T19:51:45.231430+00:00 Ubuntu dbus-daemon[645]: [system] Failed to activate service 'org.freedesktop.login1': timed out (service_start_timeout=25000ms)
+2026-01-22T19:52:15.339076+00:00 Ubuntu dbus-daemon[645]: [system] Failed to activate service 'org.freedesktop.login1': timed out (service_start_timeout=25000ms)
+2026-01-22T19:52:45.369003+00:00 Ubuntu dbus-daemon[645]: [system] Failed to activate service 'org.freedesktop.login1': timed out (service_start_timeout=25000ms)
+2026-01-22T19:53:15.400546+00:00 Ubuntu dbus-daemon[645]: [system] Failed to activate service 'org.freedesktop.login1': timed out (service_start_timeout=25000ms)
+2026-01-22T19:53:45.410741+00:00 Ubuntu dbus-daemon[645]: [system] Failed to activate service 'org.freedesktop.login1': timed out (service_start_timeout=25000ms)
+2026-01-22T19:54:15.427600+00:00 Ubuntu dbus-daemon[645]: [system] Failed to activate service 'org.freedesktop.login1': timed out (service_start_timeout=25000ms)
+2026-01-22T19:54:45.462413+00:00 Ubuntu dbus-daemon[645]: [system] Failed to activate service 'org.freedesktop.login1': timed out (service_start_timeout=25000ms)
+2026-01-22T19:55:01.059617+00:00 Ubuntu CRON[1517]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-22T19:55:01.070663+00:00 Ubuntu CRON[1517]: pam_unix(cron:session): session closed for user root
+2026-01-22T19:55:15.491987+00:00 Ubuntu dbus-daemon[645]: [system] Failed to activate service 'org.freedesktop.login1': timed out (service_start_timeout=25000ms)
+2026-01-22T20:02:48.725301+00:00 Ubuntu systemd-logind[727]: New seat seat0.
+2026-01-22T20:02:48.725307+00:00 Ubuntu systemd-logind[727]: Watching system buttons on /dev/input/event0 (Power Button)
+2026-01-22T20:02:48.725312+00:00 Ubuntu systemd-logind[727]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2026-01-22T20:02:48.725317+00:00 Ubuntu systemd-logind[727]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2026-01-22T20:02:48.725482+00:00 Ubuntu polkitd[688]: Loading rules from directory /etc/polkit-1/rules.d
+2026-01-22T20:02:48.725487+00:00 Ubuntu polkitd[688]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-01-22T20:02:48.725570+00:00 Ubuntu polkitd[688]: Finished loading, compiling and executing 16 rules
+2026-01-22T20:02:48.638010+00:00 Ubuntu polkitd[688]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2026-01-22T20:02:52.983337+00:00 Ubuntu gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2026-01-22T20:02:53.050921+00:00 Ubuntu systemd-logind[727]: New session c1 of user gdm.
+2026-01-22T20:02:53.209349+00:00 Ubuntu (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2026-01-22T20:03:02.164701+00:00 Ubuntu polkitd[688]: Registered Authentication Agent for unix-session:c1 (system bus name :1.38 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-01-22T20:03:09.954128+00:00 Ubuntu gdm-password]: gkr-pam: unable to locate daemon control file
+2026-01-22T20:03:09.954651+00:00 Ubuntu gdm-password]: gkr-pam: stashed password to try later in open session
+2026-01-22T20:03:10.080453+00:00 Ubuntu gdm-password]: pam_unix(gdm-password:session): session opened for user labuser(uid=1000) by labuser(uid=0)
+2026-01-22T20:03:10.185561+00:00 Ubuntu systemd-logind[727]: New session 2 of user labuser.
+2026-01-22T20:03:10.373343+00:00 Ubuntu (systemd): pam_unix(systemd-user:session): session opened for user labuser(uid=1000) by labuser(uid=0)
+2026-01-22T20:03:11.879382+00:00 Ubuntu gdm-password]: gkr-pam: unlocked login keyring
+2026-01-22T20:03:13.113583+00:00 Ubuntu gnome-keyring-daemon[1924]: The Secret Service was already initialized
+2026-01-22T20:03:13.114235+00:00 Ubuntu gnome-keyring-daemon[2115]: discover_other_daemon: 1
+2026-01-22T20:03:13.121807+00:00 Ubuntu gnome-keyring-daemon[1924]: The PKCS#11 component was already initialized
+2026-01-22T20:03:13.124704+00:00 Ubuntu gnome-keyring-daemon[2118]: discover_other_daemon: 1
+2026-01-22T20:03:13.162898+00:00 Ubuntu gnome-keyring-daemon[2123]: discover_other_daemon: 1
+2026-01-22T20:03:20.626758+00:00 Ubuntu polkitd[688]: Registered Authentication Agent for unix-session:2 (system bus name :1.75 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-01-22T20:03:23.506100+00:00 Ubuntu gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2026-01-22T20:03:23.560516+00:00 Ubuntu systemd-logind[727]: Session c1 logged out. Waiting for processes to exit.
+2026-01-22T20:03:23.579214+00:00 Ubuntu polkitd[688]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.38, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2026-01-22T20:03:23.597465+00:00 Ubuntu systemd-logind[727]: Removed session c1.
+2026-01-22T20:04:21.954520+00:00 Ubuntu pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by labuser(uid=1000)
+2026-01-22T20:04:21.959235+00:00 Ubuntu pkexec[3040]: labuser: Executing command [USER=root] [TTY=unknown] [CWD=/home/labuser] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-01-22T20:05:01.391093+00:00 Ubuntu CRON[3056]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-22T20:05:01.402809+00:00 Ubuntu CRON[3056]: pam_unix(cron:session): session closed for user root
+2026-01-22T20:15:01.437046+00:00 Ubuntu CRON[3108]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-22T20:15:01.445441+00:00 Ubuntu CRON[3108]: pam_unix(cron:session): session closed for user root
+2026-01-22T20:16:08.470099+00:00 Ubuntu systemd-logind[727]: The system will power off now!
+2026-01-22T20:16:08.537789+00:00 Ubuntu systemd-logind[727]: System is powering down.
+2026-01-22T20:16:08.590006+00:00 Ubuntu gdm-password]: pam_unix(gdm-password:session): session closed for user labuser
+2026-01-22T21:02:04.097476+00:00 Ubuntu systemd-logind[741]: New seat seat0.
+2026-01-22T21:02:04.097483+00:00 Ubuntu systemd-logind[741]: Watching system buttons on /dev/input/event0 (Power Button)
+2026-01-22T21:02:04.097489+00:00 Ubuntu systemd-logind[741]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2026-01-22T21:02:04.097498+00:00 Ubuntu systemd-logind[741]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2026-01-22T21:02:04.346817+00:00 Ubuntu polkitd[702]: Loading rules from directory /etc/polkit-1/rules.d
+2026-01-22T21:02:04.350418+00:00 Ubuntu polkitd[702]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-01-22T21:02:04.566450+00:00 Ubuntu polkitd[702]: Finished loading, compiling and executing 16 rules
+2026-01-22T21:02:04.588755+00:00 Ubuntu polkitd[702]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2026-01-22T21:02:08.725770+00:00 Ubuntu gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2026-01-22T21:02:08.827087+00:00 Ubuntu systemd-logind[741]: New session c1 of user gdm.
+2026-01-22T21:02:08.928861+00:00 Ubuntu (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2026-01-22T21:02:17.076122+00:00 Ubuntu polkitd[702]: Registered Authentication Agent for unix-session:c1 (system bus name :1.38 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-01-22T21:02:37.772093+00:00 Ubuntu gdm-password]: gkr-pam: unable to locate daemon control file
+2026-01-22T21:02:37.773441+00:00 Ubuntu gdm-password]: gkr-pam: stashed password to try later in open session
+2026-01-22T21:02:37.870128+00:00 Ubuntu gdm-password]: pam_unix(gdm-password:session): session opened for user labuser(uid=1000) by labuser(uid=0)
+2026-01-22T21:02:37.977027+00:00 Ubuntu systemd-logind[741]: New session 2 of user labuser.
+2026-01-22T21:02:38.047569+00:00 Ubuntu (systemd): pam_unix(systemd-user:session): session opened for user labuser(uid=1000) by labuser(uid=0)
+2026-01-22T21:02:39.247200+00:00 Ubuntu gdm-password]: gkr-pam: unlocked login keyring
+2026-01-22T21:02:40.496785+00:00 Ubuntu gnome-keyring-daemon[1899]: The Secret Service was already initialized
+2026-01-22T21:02:40.498287+00:00 Ubuntu gnome-keyring-daemon[2095]: discover_other_daemon: 1
+2026-01-22T21:02:40.506117+00:00 Ubuntu gnome-keyring-daemon[1899]: The PKCS#11 component was already initialized
+2026-01-22T21:02:40.507119+00:00 Ubuntu gnome-keyring-daemon[2098]: discover_other_daemon: 1
+2026-01-22T21:02:40.542994+00:00 Ubuntu gnome-keyring-daemon[2104]: discover_other_daemon: 1
+2026-01-22T21:02:46.762394+00:00 Ubuntu polkitd[702]: Registered Authentication Agent for unix-session:2 (system bus name :1.75 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-01-22T21:02:49.687153+00:00 Ubuntu gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2026-01-22T21:02:49.740225+00:00 Ubuntu systemd-logind[741]: Session c1 logged out. Waiting for processes to exit.
+2026-01-22T21:02:49.812934+00:00 Ubuntu systemd-logind[741]: Removed session c1.
+2026-01-22T21:02:49.822941+00:00 Ubuntu polkitd[702]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.38, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2026-01-22T21:03:00.177853+00:00 Ubuntu (sd-pam): pam_unix(systemd-user:session): session closed for user gdm
+2026-01-22T21:03:49.742744+00:00 Ubuntu pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by labuser(uid=1000)
+2026-01-22T21:03:49.748530+00:00 Ubuntu pkexec[2987]: labuser: Executing command [USER=root] [TTY=unknown] [CWD=/home/labuser] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-01-22T21:05:01.388305+00:00 Ubuntu CRON[3001]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-22T21:05:01.401931+00:00 Ubuntu CRON[3001]: pam_unix(cron:session): session closed for user root
+2026-01-22T21:15:01.481125+00:00 Ubuntu CRON[3066]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-22T21:15:01.497926+00:00 Ubuntu CRON[3066]: pam_unix(cron:session): session closed for user root
+2026-01-22T21:17:01.521301+00:00 Ubuntu CRON[3071]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-22T21:17:01.538947+00:00 Ubuntu CRON[3071]: pam_unix(cron:session): session closed for user root
+2026-01-22T21:25:01.583999+00:00 Ubuntu CRON[3104]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-22T21:25:01.598944+00:00 Ubuntu CRON[3104]: pam_unix(cron:session): session closed for user root
+2026-01-22T21:30:01.623751+00:00 Ubuntu CRON[3117]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-22T21:30:01.634220+00:00 Ubuntu CRON[3117]: pam_unix(cron:session): session closed for user root
+2026-01-22T21:35:01.763042+00:00 Ubuntu CRON[3136]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-22T21:35:01.879506+00:00 Ubuntu CRON[3136]: pam_unix(cron:session): session closed for user root
+2026-01-22T21:36:56.072173+00:00 Ubuntu dbus-daemon[671]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2026-01-22T21:45:01.962978+00:00 Ubuntu CRON[3209]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-22T21:45:01.986476+00:00 Ubuntu CRON[3209]: pam_unix(cron:session): session closed for user root
+2026-01-22T21:46:12.556187+00:00 Ubuntu gdm-password]: gkr-pam: unlocked login keyring
+2026-01-22T21:55:01.022783+00:00 Ubuntu CRON[3360]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-22T21:55:01.033856+00:00 Ubuntu CRON[3360]: pam_unix(cron:session): session closed for user root
+2026-01-22T22:05:01.061007+00:00 Ubuntu CRON[3393]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-22T22:05:01.072952+00:00 Ubuntu CRON[3393]: pam_unix(cron:session): session closed for user root
+2026-01-22T22:15:01.098569+00:00 Ubuntu CRON[3424]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-22T22:15:01.104938+00:00 Ubuntu CRON[3424]: pam_unix(cron:session): session closed for user root
+2026-01-22T22:17:01.234053+00:00 Ubuntu CRON[3428]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-22T22:17:01.247768+00:00 Ubuntu CRON[3428]: pam_unix(cron:session): session closed for user root
+2026-01-22T22:25:01.264326+00:00 Ubuntu CRON[3451]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-22T22:25:01.277582+00:00 Ubuntu CRON[3451]: pam_unix(cron:session): session closed for user root
+2026-01-22T22:26:31.816403+00:00 Ubuntu gdm-password]: gkr-pam: unlocked login keyring
+2026-01-22T22:26:41.439554+00:00 Ubuntu sudo:  labuser : TTY=pts/0 ; PWD=/home/labuser ; USER=root ; COMMAND=/usr/bin/apt update
+2026-01-22T22:26:41.443655+00:00 Ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by labuser(uid=1000)
+2026-01-22T22:26:57.709555+00:00 Ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2026-01-22T22:26:57.726155+00:00 Ubuntu sudo:  labuser : TTY=pts/0 ; PWD=/home/labuser ; USER=root ; COMMAND=/usr/bin/apt install openssh-server -y
+2026-01-22T22:26:57.729539+00:00 Ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by labuser(uid=1000)
+2026-01-22T22:27:12.802740+00:00 Ubuntu useradd[4149]: new user: name=sshd, UID=122, GID=65534, home=/run/sshd, shell=/usr/sbin/nologin, from=none
+2026-01-22T22:27:24.952641+00:00 Ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2026-01-22T22:27:25.049135+00:00 Ubuntu sudo:  labuser : TTY=pts/0 ; PWD=/home/labuser ; USER=root ; COMMAND=/usr/bin/systemctl enable --now ssh
+2026-01-22T22:27:25.057629+00:00 Ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by labuser(uid=1000)
+2026-01-22T22:27:27.448021+00:00 Ubuntu sshd[4921]: Server listening on 0.0.0.0 port 22.
+2026-01-22T22:27:27.448865+00:00 Ubuntu sshd[4921]: Server listening on :: port 22.
+2026-01-22T22:27:27.453108+00:00 Ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2026-01-22T22:27:27.470047+00:00 Ubuntu sudo:  labuser : TTY=pts/0 ; PWD=/home/labuser ; USER=root ; COMMAND=/usr/bin/systemctl status ssh --no-pager
+2026-01-22T22:27:27.473098+00:00 Ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by labuser(uid=1000)
+2026-01-22T22:27:27.523780+00:00 Ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2026-01-22T22:27:44.862952+00:00 Ubuntu sshd[4926]: Invalid user vishal from 192.168.56.103 port 52404
+2026-01-22T22:27:49.159860+00:00 Ubuntu pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by labuser(uid=1000)
+2026-01-22T22:27:49.163641+00:00 Ubuntu pkexec[4934]: labuser: Executing command [USER=root] [TTY=unknown] [CWD=/home/labuser] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-01-22T22:27:57.343760+00:00 Ubuntu sshd[4926]: pam_unix(sshd:auth): check pass; user unknown
+2026-01-22T22:27:57.345000+00:00 Ubuntu sshd[4926]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.103 
+2026-01-22T22:27:59.567832+00:00 Ubuntu sshd[4926]: Failed password for invalid user vishal from 192.168.56.103 port 52404 ssh2
+2026-01-22T22:28:03.439489+00:00 Ubuntu sshd[4926]: pam_unix(sshd:auth): check pass; user unknown
+2026-01-22T22:28:06.151038+00:00 Ubuntu sshd[4926]: Failed password for invalid user vishal from 192.168.56.103 port 52404 ssh2
+2026-01-22T22:28:11.269775+00:00 Ubuntu sshd[4926]: pam_unix(sshd:auth): check pass; user unknown
+2026-01-22T22:28:13.084769+00:00 Ubuntu sshd[4926]: Failed password for invalid user vishal from 192.168.56.103 port 52404 ssh2
+2026-01-22T22:28:14.092673+00:00 Ubuntu sshd[4926]: Connection closed by invalid user vishal 192.168.56.103 port 52404 [preauth]
+2026-01-22T22:28:14.093705+00:00 Ubuntu sshd[4926]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.103 
+2026-01-22T22:30:01.828549+00:00 Ubuntu sshd[4947]: Accepted password for labuser from 192.168.56.103 port 56290 ssh2
+2026-01-22T22:30:01.843560+00:00 Ubuntu sshd[4947]: pam_unix(sshd:session): session opened for user labuser(uid=1000) by labuser(uid=0)
+2026-01-22T22:30:01.889410+00:00 Ubuntu systemd-logind[741]: New session 16 of user labuser.
+2026-01-22T22:30:01.991928+00:00 Ubuntu CRON[4970]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-22T22:30:02.003327+00:00 Ubuntu CRON[4970]: pam_unix(cron:session): session closed for user root
+2026-01-22T22:30:21.490216+00:00 Ubuntu sshd[5018]: Received disconnect from 192.168.56.103 port 56290:11: disconnected by user
+2026-01-22T22:30:21.492837+00:00 Ubuntu sshd[5018]: Disconnected from user labuser 192.168.56.103 port 56290
+2026-01-22T22:30:21.493897+00:00 Ubuntu sshd[4947]: pam_unix(sshd:session): session closed for user labuser
+2026-01-22T22:30:21.504988+00:00 Ubuntu systemd-logind[741]: Session 16 logged out. Waiting for processes to exit.
+2026-01-22T22:30:21.510863+00:00 Ubuntu systemd-logind[741]: Removed session 16.
+2026-01-22T22:31:36.168108+00:00 Ubuntu sudo:  labuser : TTY=pts/0 ; PWD=/home/labuser ; USER=root ; COMMAND=/usr/bin/tail -n 200 /var/log/auth.log
+2026-01-22T22:31:36.172306+00:00 Ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by labuser(uid=1000)
